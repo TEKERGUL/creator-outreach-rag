@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# NOTE: index/*.npy files are deliberately tracked.
+# They are small (~80KB) and let reviewers run the demo immediately
+# without needing to install sentence-transformers and rebuild.
